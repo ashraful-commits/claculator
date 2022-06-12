@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>calculator</title>
+</head>
+<body>
+     <div class="container">
+        <div class="row m-5 d-flex justify-content-center">
+            <div class="col-md-5">
+            <div class="card shadow bg-white">
+                <div class="card-header text-center ">
+                    <h4 class="text-secondary rounded  d-inline-block p-1 mb-3 mb-0  ">Calculator</h4>
+                    <input  value="" class="form-control border-0 shadow-sm font-weight-bold" id="display" placeholder="0" type="text">
+                </div>
+                <div class="card-body bg-white">
+                    <div class="m-2">
+                        <table class="table  text-center">
+                            <tr>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">tan</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">cos</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">sin</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2"><i class="fa-solid fa-arrow-left-long"></i></button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">C</button></td>
+                            </tr>
+                            <tr>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">(</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">)</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">%</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">/</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">*</button></td>
+                            </tr>
+
+                            <tr>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">6</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">7</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">8</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">9</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">-</button></td>
+
+                            </tr>
+                            <tr>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">1</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">2</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">3</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">4</button></td>
+                                <td><button type="button" class="btn btn-outline-primary px-3 shadow w-100 py-2">5</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="btn btn-outline-primary px-3 shadow w-100 py-2">0</button></td>
+                                <td><button class="btn btn-outline-primary px-3 shadow w-100 py-2">.</button></td>
+                                <td><button class="btn btn-outline-primary px-3 shadow w-100 py-2"><i class="fa-solid fa-square-root-variable"></i></button></td>
+                                <td><button class="btn btn-outline-primary px-3 shadow w-100 py-2">=</button></td>
+                                <td><button class="btn btn-outline-primary px-3 shadow w-100 py-2">+</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="footer"></div>
+            </div>
+        </div>
+        </div>
+     </div>    
+
+
+     <script src="app.js"></script>
+</body>
+</html>
